@@ -1,0 +1,48 @@
+.main{
+    background-color:whitesmoke;
+    width: 28%;
+    margin: auto;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+.main h2{
+    color: orangered;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main div{
+    margin:12px;
+    text-align: center;
+}
+.main input[type="text"]{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main input[type="tel"]{
+    width: 260px;
+    height: 30px;
+    border: 1px solid gainsboro;
+    font-size: 13px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main input[type="radio"]{
+    font-size: 8px;
+}
+.main fieldset{
+    border: 2px solid gainsboro;
+}
+.main input[type="submit"]{
+    padding: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    color: whitesmoke;
+    background-color: orangered;
+    border-radius: 10px;
+}

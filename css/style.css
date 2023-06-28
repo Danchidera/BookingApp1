@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: orangered ;
+    display: flex;
+    height: 70px;
+    padding: 0;
+}
+.header-title{
+    flex: 3;
+}
+.header-links{
+    flex: 1;
+    margin: 10px;
+}
+.header-links a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 12px;
+}
+.header-links a:hover,a:focus{
+    background-color: whitesmoke;
+    color: orangered;
+}
+.header-title h1{
+    margin: 0;
+    padding: 3px;
+    color: beige;
+}
+.header-title p{
+    margin: 0;
+    color: beige;
+}
+
+/*Navigation styling starts here*/
+nav ul{
+    list-style-type: none;
+    background-color: whitesmoke;
+    margin: 5px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    height: 40px;
+}
+nav li{
+    float: left;
+}
+nav a{
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+    color: orangered;
+}
+nav a:hover{
+    background-color: orangered;
+    color: whitesmoke;
+    font-size: 17px;
+}
+
+/*--Main Styling starts here--*/
+main{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+main div{
+    background-color: whitesmoke;
+    height: 150px;
+    margin: 15px;
+    border-radius: 10px;
+    width: 28%;
+    padding: 8px;
+}
+.main-title{
+    color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+main h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width:800px) {
+    main{
+        flex-direction: column;
+    }
+}
+
+/*--Footer Styling starts here*/
+
+footer{
+    background-color: orangered;
+    height: 80px;
+    padding: 10px;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+.footer-container p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: beige;
+    padding: 0 0 0 5px;
+}
+.footer-icons{
+    padding: 15px 4px 0 0;
+}
+.footer-icons a{
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+.footer-icons a:hover{
+    background-color: beige;
+    color: orangered;
+    font-size: 17px;
+}
+.footer-icons a:focus{
+    background-color: beige;
+    color: orangered;
+}
